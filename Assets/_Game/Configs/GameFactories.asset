@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8715286049640f88b3fc995b3a80ad9, type: 3}
+  m_Name: GameFactories
+  m_EditorClassIdentifier: 
+  _collectablesFactory:
+    _poolFactories:
+    - _poolCapacity: 10
+      _prefab: {fileID: 1359795615658255846, guid: af5626453e5084ad788fef32c3d018e0,
+        type: 3}
+      _collectableType: 2
+    - _poolCapacity: 10
+      _prefab: {fileID: 4030862460239309486, guid: 0660f4c594fb84cc2889ebcf0b40d8af,
+        type: 3}
+      _collectableType: 0
+    - _poolCapacity: 10
+      _prefab: {fileID: 7073769647689368656, guid: 91cea58a0d3f84d3e81b01c62aaca35c,
+        type: 3}
+      _collectableType: 1
+  _obstacleFactory:
+    _poolCapacity: 10
+    _prefab: {fileID: -7855672547260335907, guid: 392a572a651d844ecab8f5b74a4a50ea,
+      type: 3}
+    _materials:
+    - {fileID: 2100000, guid: 5a7ca585a9b2b3c4587125916713263d, type: 2}
+    - {fileID: 2100000, guid: 21ca8723c11d2d34abf1e9e595b0942a, type: 2}
+    - {fileID: 2100000, guid: 88b3961b9a9bd064ebcc2f4cbf42faf0, type: 2}
+    - {fileID: 2100000, guid: aa60dc0f504f8eb41974f50e1528f594, type: 2}
+    - {fileID: 2100000, guid: ff2f42e1397fe8a479eea2973e848d92, type: 2}
+    - {fileID: 2100000, guid: 6af20d21fdb3e9846be9fcc5368045e6, type: 2}
+    - {fileID: 2100000, guid: 7ec4e7373ac023f42bc829945cdcdf38, type: 2}

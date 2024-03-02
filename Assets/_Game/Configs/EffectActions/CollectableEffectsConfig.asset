@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06d493248ef944a3825c3b652c8d72e1, type: 3}
+  m_Name: CollectableEffectsConfig
+  m_EditorClassIdentifier: 
+  _actions:
+  - {fileID: 11400000, guid: 8fe602fc3d7ef4fb0b9960028902a118, type: 2}
+  - {fileID: 11400000, guid: 6309ed7232a0d4441a0efff7a9fecea7, type: 2}
+  - {fileID: 11400000, guid: 174a59e7f67ba4032aa04b05e32157ba, type: 2}
